@@ -21,7 +21,7 @@ namespace LogFlush
 		{
 			public static void Postfix()
 			{
-                if (Engine.Current.InputInterface.GetKeyDown(Key.F5))
+                if (Engine.Current.InputInterface.GetKeyDown(Key.F1))
 				{
 					Msg("Flushing LogStream...");
 					FrooxEngineBootstrap.LogStream.Flush();
