@@ -1,6 +1,6 @@
 # LogFlush
 
-A [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod for [Resonite](https://resonite.com/) that flushes the log stream when you press the F5 key, causing all buffered messages to be written to the log file.
+A [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod for [Resonite](https://resonite.com/) that flushes the log stream when you press the F1 key, causing all buffered messages to be written to the log file.
 
 ## Installation
 1. Install [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader).
