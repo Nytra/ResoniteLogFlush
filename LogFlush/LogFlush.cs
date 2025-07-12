@@ -1,6 +1,8 @@
 using HarmonyLib;
 using ResoniteModLoader;
 using FrooxEngine;
+using Renderite.Shared;
+using Elements.Core;
 
 namespace LogFlush
 {
@@ -23,8 +25,8 @@ namespace LogFlush
 			{
                 if (Engine.Current.InputInterface.GetKeyDown(Key.F1))
 				{
-					Msg("Flushing LogStream...");
-					FrooxEngineBootstrap.LogStream.Flush();
+					Msg("Flushing Log...");
+					UniLog.Flush();
 				}
             }
 		}
