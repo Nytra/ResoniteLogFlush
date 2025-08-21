@@ -10,7 +10,7 @@ namespace LogFlush
 	{
 		public override string Name => "LogFlush";
 		public override string Author => "Nytra";
-		public override string Version => "1.1.0";
+		public override string Version => "1.1.1";
 		public override string Link => "https://github.com/Nytra/ResoniteLogFlush";
 		public override void OnEngineInit()
 		{
